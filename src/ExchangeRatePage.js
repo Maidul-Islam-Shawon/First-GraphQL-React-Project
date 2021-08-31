@@ -14,6 +14,7 @@ const EXCHANGE_RATES = gql`
 
 const ExchangeRatePage = () => {
   //...fetching data by providing query...//
+
   const { data, loading, error } = useQuery(EXCHANGE_RATES);
 
   //...function to map data...//
